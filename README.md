@@ -1,1 +1,7 @@
-# Majority-Gate
+# Majority Gate
+
+### About:
+
+### Note:
+
+### Results: 
