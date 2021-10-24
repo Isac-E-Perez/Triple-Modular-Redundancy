@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity gate is 
-  generic (N : integer := 8); -- I use generic when performing routines that performs a certain task on an input array of a generic size.
+  generic (N : integer := 8); -- I use generic when performing routines that performs a certain task on an input array of a generic size. Default value of 8.
   port ( 
     A, B, C : in std_logic_vector(N-1 downto 0);
     f : out std_logic_vector(N-1 downto 0);
