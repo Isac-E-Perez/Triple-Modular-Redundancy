@@ -40,6 +40,8 @@ begin
     A <= x"AB"; B <= x"20"; C <= x"AB"; wait for 20 ns;
     A <= x"CE"; B <= x"45"; C <= x"30"; wait for 20 ns;
     A <= x"00"; B <= x"00"; C <= x"00"; wait for 20 ns;
+     
+    assert false report "Reached end of test"
     wait;
   end process;
 end behavioral;
