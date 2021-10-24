@@ -7,7 +7,5 @@ For this project, I created a triple modular redundacy logic circuit with the us
 **Three identical logic circuits (logic gates) are used to compute the specified Boolean function**
 
 **Black Box**
-
-### Note:
-
+ 
 ### Results: 
