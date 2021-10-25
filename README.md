@@ -30,7 +30,7 @@ Afterwards, I worked on the behavioral (functional) simulation. Here, I will onl
  
 <img width="415" alt="Screen Shot 2021-10-25 at 9 56 44 AM" src="https://user-images.githubusercontent.com/89553126/138719535-ed4e7cc9-4463-4f28-8f2b-545de7c6af61.png">
 
-Generic is used to define an entity behavior at instanciation time, i.e. the behavior that will be implemented on my hardware. It's declared in the entity with a default value. The 'testbench' will go ahead and send the signals to the circuit in which it will read back those signals. Afterwards, I could check out whether these signals are correct. Therefore, I don't need anything going into or out of the testbench. Additionally, a process was created so that I could deliver signals sequentially and not concurrenlty.
+Generic is used to define an entity behavior at instanciation time, i.e. the behavior that will be implemented on my hardware. It's declared in the entity with a default value. The 'testbench' will go ahead and send the signals to the circuit in which it will read back those signals. Afterwards, I could check out whether these signals are correct. Therefore, I don't need anything going into or out of the testbench. Additionally, the process statement is a concurrent statement which is constituted of sequential statements exclusively.
 
 Finally, I verified the units outputted by using a waveform viewer.
  
