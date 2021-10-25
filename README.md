@@ -36,4 +36,6 @@ Finally, I verified the units outputted by using a waveform viewer.
  
 ![0](https://user-images.githubusercontent.com/89553126/138616993-07a744f5-e5c8-4010-8d69-e0592745aa58.png)
 
-Looking back to the digital design diagram and the black box, the code produce what should be expected, therefore, I know my triple modular redundancy code is operating correctly.
+The observed waveform only produces a y = '1' error when all three gates are different. When only one gate is different, the producted of *f* is the majority value. In this case, the waveform verifies what I expect to observe.   
+
+Looking back to the digital design diagram,the black box and waveform, the code produce what should be expected, therefore, I know my triple modular redundancy code is operating correctly.
