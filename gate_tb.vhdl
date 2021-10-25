@@ -7,7 +7,7 @@ end gate_tb;
   
 architecture behavioral of gate_tb is 
   
-  -- Compnent Declaration for the Unit Under Test (UUT)
+  -- Component Declaration for the Unit Under Test (UUT)
   component gate 
     port ( 
       A, B, C : in std_logic_vector(N-1 downto 0);
