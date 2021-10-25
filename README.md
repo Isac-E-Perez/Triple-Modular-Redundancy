@@ -23,5 +23,11 @@ In VHDL, *A*, *B*, and *C* are inputs (**IN**), and *f* and *y* are outputs (OUT
 **Internal description of the logic circuit is specified here**
 
  <img width="348" alt="Screen Shot 2021-10-25 at 9 50 46 AM" src="https://user-images.githubusercontent.com/89553126/138718484-54c1d327-92da-4f2b-9d85-c438f8acf98b.png">
+
+Afterwards, I worked on the behavioral (functional) simulation. Here, I will only verify the operations of the circuit. Stimuli is provided to the circuit, so I can verify the outputs behave as I expect. The VHDL file called 'gate_tb' is where I specified the stimuli to the circuit.
+
+<img width="415" alt="Screen Shot 2021-10-25 at 10 00 05 AM" src="https://user-images.githubusercontent.com/89553126/138720155-b2b10ec4-c960-4164-adc8-2e25602ea236.png">
  
+<img width="415" alt="Screen Shot 2021-10-25 at 9 56 44 AM" src="https://user-images.githubusercontent.com/89553126/138719535-ed4e7cc9-4463-4f28-8f2b-545de7c6af61.png">
+
 ![0](https://user-images.githubusercontent.com/89553126/138616993-07a744f5-e5c8-4010-8d69-e0592745aa58.png)
